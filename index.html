@@ -3,188 +3,376 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Taurean Schools</title>
-  <link rel="stylesheet" href="index.css">
+  <title>The Taurean Schools - Excellence in Education Since 1981</title>
+  <meta name="description" content="The Taurean Schools provides world-class education with over 40 years of excellence. Located in Surulere, Lagos, we offer comprehensive primary education with STEM, Arts, and Sports programs.">
+  <meta name="keywords" content="Taurean Schools, Lagos education, private school, STEM education, primary school, Surulere">
+  
+  <!-- Favicon -->
   <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-  <section class="header">
-    <nav>
-      <a class="logo" href="/index.html">
-        <img src="/badge__1_-removebg-preview.png" alt="">
-        <h1 class="bubble-hover">The Taurean Schools</h1>
-      </a>
-      <div class="nav-links" id="navLinks">
-        <svg class="svg" onclick="hideMenu()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
-        
-        <!---<ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Admissions</a></li>
-          <li><a href="">Careers</a></li>
-        </ul>
-        <!------->
-      </div>
-      <svg class="svg" onclick="showMenu()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-    </nav>
-    <div class="text-box">
-      <h1>We have a seat for you</h1>
-      <p>Giving your child world-class education and care at unbeatable prices
-    </p>
-      <a href="https://forms.gle/kX1Z3aVNyNZqTQts6" target="_blank" class="hero-btn">Enroll now</a>    
-  </section>
-  <!---------------------- COURSE ----------------------->
-  <section class="course">
-    <h1>What we offer</h1>
-    <p>From robotics,dance,culinary classes and swimming. Here at Taurean, we leave no stone unturned in the total education of a child.</p>
-
-    <div class="row">
-      <div class="course-col art">
-        <h3>Art</h3>
-        
-        
-      </div>
-      <div class="course-col">
-        <h3>Sports</h3>
-      </div>
-        
-      <div class="course-col">
-        <h3>S.T.E.M</h3>
-      </div>
+  <!-- Header with Anniversary Badge -->
+  <div class="anniversary-header">
+    <div class="anniversary-badge">
+      <img src="badge__1_-removebg-preview.png" alt="40th Anniversary">
+      <span>40th Anniversary</span>
     </div>
-  </section>
+  </div>
 
-  <section class="campus">
-    <h1>Why parents choose Taurean</h1>
-    <p> As a family oriented school who place immense value on our parents and their wards making a homely environment that they can trust</p>
-
-    <div class="row">
-      <div class="campus-col">
-        <img src="graduation.png" alt="">
-        <div class="layer">
-          <h3>Graduated over 1000 students</h3>
-        </div>
-      </div>
-
-      <div class="campus-col">
-        <img src="medally.png" alt="">
-        <div class="layer">
-          <h3>Over 40 years of excellence</h3>
-        </div>
-      </div>
-
-      <div class="campus-col">
-        <img src="family.png" alt="">
-        <div class="layer">
-          <h3>Family oriented</h3>
-        </div>
-      </div>
-
-      <div class="campus-col">
-        <img src="pillar.png" alt="">
-        <div class="layer">
-          <h3>Pillar in Surulere</h3>
-        </div>
-      </div>
+  <!-- Hero Section -->
+  <section class="hero-main">
+    <div class="hero-background">
+      <div class="hero-overlay"></div>
+      <img src="background.jpg" alt="Taurean Schools Campus" class="hero-bg-img">
     </div>
-
-    <div class="testimonial">
-      My son greatly improved at Taurean,I would totally recommend
-      <span>Mrs Chinyere</span>
-    </div>
-
-  </section>
-
-  <section class="facilities">
-    <h1>Our activities</h1>
-    <p>At Taurean, we prioritize familiariazing our students with the real world experience and not just using a theoretical approach.</p>
-
-    <div class="row">
-      <div class="facilities-col">
-        <img src="/stem.jpg" alt="">
-        <h3>Excursions</h3>
-        
-      </div>
-
-      <div class="facilities-col">
-        <img src="/sports.jpg" alt="">
-        <h3>Sports Fest</h3>
-        
-      </div>
-
-      <div class="facilities-col">
-        <img src="/children.jpg" alt="">
-        <h3>Cultural Day</h3>
-        
-      </div>
-    </div>
-  </section>
-
-  <!------------------- testimonials ---------------------------------->
-  <section class="testimonials">
-    <h1>What our students say</h1>
-    <p>Our students pride themselves with being in a school, that is practically the beacon of light of primary education in Aguda</p>
-
-    <div class="row">
-      <div class="testimonial-col">
-        <img src="/bimbo.jpg">
-        <div>
-          <p>Here you meet great people that are going to do great things</p>
-          <h3>Abimbola Grillo</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-        </div>
-      </div>
-
-      <div class="testimonial-col">
-        <img src="/background.jpg">
-        <div>
-          <p>Taurean is where you will learn value and princples I am thankful for Taurean -</p>
-          <h3>Tomiyin Osowe</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-
+    
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="hero-title">
+          Let's Send You All the Open Day<br>
+          Info Instantly on WhatsApp
+        </h1>
+        <p class="hero-subtitle">
+          Join us at The Taurean School → a school built on legacy and love since 1981
+        </p>
+        <p class="hero-subtext">
+          We will send you event agenda, teacher bios
+        </p>
+        <div class="hero-button">
+          <a href="https://wa.me/2347046408968?text=Hi%20I%20want%20to%20get%20info%20on%20WhatsApp" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            Get Info on WhatsApp
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!---------- Call to action --------------------->
-  <section class="cta">
-    <h1>Book an appointment for an open day session</h1>
-    <a href="tel: +2347046408968" class="hero-btn">Contact Us</a>
+  <!-- Why Parents Trust Section -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">
+          <i class="fas fa-heart"></i>
+          Why Parents Trust The Taurean School
+        </h2>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="trust-icon">
+            <img src="graduation2.png" alt="40+ Years of Excellence" class="trust-img">
+          </div>
+          <h3>40+ Years of Educational Excellence</h3>
+          <p>Established in 1981, we've been shaping young minds and building character for over four decades.</p>
+        </div>
+
+        <div class="trust-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="trust-icon">
+            <img src="graduation.png" alt="Over 1,000 Successful Graduates" class="trust-img">
+          </div>
+          <h3>1,000+ Successful Graduates</h3>
+          <p>Our alumni have gone on to excel in top universities and successful careers worldwide.</p>
+        </div>
+
+        <div class="trust-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="trust-icon">
+            <img src="medal.png" alt="Holistic Education & Community Impact" class="trust-img">
+          </div>
+          <h3>Holistic Education & Community Pillar</h3>
+          <p>Strong academic focus combined with values-based education, serving as a cornerstone of the Surulere community.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial Quote -->
+      <div class="quote-section" data-aos="fade-up" data-aos-delay="500">
+        <blockquote class="quote">
+          "Both my kids flourished at The Taurean School. We felt like part of a family."
+        </blockquote>
+        <cite class="quote-author">— Mrs. Chinyere S. (Current of Class of 2019 & 2021)</cite>
+      </div>
+    </div>
   </section>
 
-  <section class="footer">
-    <h4>About Us</h4>
-    <p>Established in 1981, Taurean Schools was established with the onus of giving quality education that arms the young minds entrusted in our care, <br>with tickets to enter into the circle of the intellingentia of the future  </p>
-    <a href="tel: +2347046408968"><img class="icons" src="/Whatsapp.png" alt=""></a>
-    <a href="https://www.instagram.com/thetaureanschool?utm_source=qr&igsh=MW56NTFzNDF5MGw3YQ=="><img class="icons" src="/Instagram.png" alt="">
+  <!-- WhatsApp Benefits Section -->
+  <section class="whatsapp-benefits">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">
+          <i class="fas fa-check-circle"></i>
+          What You'll Get When You Message Us on WhatsApp
+        </h2>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+          <div class="benefit-number">01</div>
+          <div class="benefit-content">
+            <h3>Full Open Day Schedule</h3>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="200">
+          <div class="benefit-number">02</div>
+          <div class="benefit-content">
+            <h3>Meet Your Child's (To-be) teachers</h3>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="300">
+          <div class="benefit-number">03</div>
+          <div class="benefit-content">
+            <h3>Quick answers from our admin team</h3>
+          </div>
+        </div>
+
+        <div class="benefit-item" data-aos="fade-right" data-aos-delay="400">
+          <div class="benefit-number">04</div>
+          <div class="benefit-content">
+            <h3>Calendar Reminder so you don't forget</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="whatsapp-cta" data-aos="fade-up" data-aos-delay="500">
+        <a href="https://wa.me/2347046408968?text=Hi%20I%20want%20to%20get%20info%20on%20WhatsApp" target="_blank" class="whatsapp-btn-large">
+          Send Me the Open Day Details
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Limited Spaces Section -->
+  <section class="limited-spaces">
+    <div class="container">
+      <div class="limited-content" data-aos="zoom-in">
+        <div class="urgency-indicators">
+          <div class="indicator">
+            <i class="fas fa-clock"></i>
+            <span>Limited Time</span>
+          </div>
+          <div class="indicator">
+            <i class="fas fa-users"></i>
+            <span>2</span>
+          </div>
+        </div>
+        
+        <h2 class="limited-title">
+          <i class="fas fa-exclamation-triangle"></i>
+          Only a Few Spaces Left in Pre-K, Nursery & Primary
+        </h2>
+        
+        <p class="limited-subtitle">
+          Book via WhatsApp before [DATE] to receive:
+        </p>
+
+        <div class="benefits-row">
+          <div class="benefit-box">
+            <i class="fas fa-gift"></i>
+            <span>Free School Starter Kit</span>
+          </div>
+          <div class="benefit-box">
+            <i class="fas fa-user-tie"></i>
+            <span>1-on-1 Help with Admissions</span>
+          </div>
+          <div class="benefit-box">
+            <i class="fas fa-certificate"></i>
+            <span>Priority Placement Consideration</span>
+          </div>
+        </div>
+
+        <div class="register-section">
+          <h3><i class="fas fa-edit"></i> Register Before [DATE] and Receive:</h3>
+          <div class="register-benefits">
+            <div class="register-column">
+              <ul>
+                <li><i class="fas fa-check"></i> Visit all classrooms walk with School Principal</li>
+                <li><i class="fas fa-check"></i> Priority Enrollment for your School-Age Child</li>
+                <li><i class="fas fa-check"></i> Connect with Alumni's (Online Session)</li>
+              </ul>
+            </div>
+            <div class="register-column">
+              <ul>
+                <li><i class="fas fa-check"></i> School Culture that believes with the first name</li>
+                <li><i class="fas fa-check"></i> Full-featured (we will send) school culture</li>
+                <li><i class="fas fa-check"></i> Alumni's (Network) Alumni information</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p class="disclaimer">
+          But the facility has a natural walk sessions at the appropriate Open Day experience
+        </p>
+
+        <div class="action-buttons">
+          <a href="https://wa.me/2347046408968?text=Hi%20I%20want%20to%20secure%20my%20place" target="_blank" class="secure-btn">
+            <i class="fas fa-shield-alt"></i>
+            Secure My Place via WhatsApp
+          </a>
+          <a href="tel:+2347046408968" class="call-btn">
+            <i class="fas fa-phone"></i>
+          </a>
+        </div>
+
+        <p class="note">*We walk families since at admissions are done every Monday</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit School Section -->
+  <section class="visit-school">
+    <div class="container">
+      <div class="visit-content">
+        <div class="visit-info" data-aos="fade-right">
+          <h2 class="visit-title">
+            <i class="fas fa-map-marker-alt"></i>
+            Visit The Taurean School
+          </h2>
+          <p class="visit-subtitle">
+            Located in the heart of Surulere, our beautiful campus offers a world-class learning environment.
+          </p>
+
+          <div class="location-details">
+            <div class="location-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Our Location</h4>
+                <p>The Taurean School<br>
+                45 Akinola Cole Cres, Adeniyi Jones<br>
+                Ikeja, Lagos 100271<br>
+                Nigeria</p>
+              </div>
+            </div>
+
+            <div class="location-card">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Open Day</h4>
+                <p>Every Monday<br>
+                9:00 AM - 3:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-options">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Call Us</h4>
+                <p>+234 704 640 8968<br>
+                Mon-Fri: 8:00 AM - 4:00 PM</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <h4>Chat Us</h4>
+                <p>WhatsApp us for instant<br>
+                responses and quick help</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visit-map" data-aos="fade-left">
+          <div class="map-container">
+            <div class="map-placeholder">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Interactive Map</h3>
+              <p>45 Akinola Cole Cres, Adeniyi Jones</p>
+              <button class="directions-btn">
+                <i class="fas fa-directions"></i>
+                Get Directions
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Getting There Info -->
+      <div class="getting-there" data-aos="fade-up">
+        <h3>Getting There</h3>
+        <div class="transport-options">
+          <div class="transport-item">
+            <i class="fas fa-car"></i>
+            <span>Easily accessible by private car, with plenty of parking space</span>
+          </div>
+          <div class="transport-item">
+            <i class="fas fa-bus"></i>
+            <span>Public transport options and ride-hailing services available</span>
+          </div>
+          <div class="transport-item">
+            <i class="fas fa-walking"></i>
+            <span>Walking distance from major landmarks in Surulere area</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick WhatsApp Chat Section -->
+  <section class="quick-chat">
+    <div class="container">
+      <div class="chat-content" data-aos="zoom-in">
+        <h2><i class="fas fa-comments"></i> Quick WhatsApp Chat</h2>
+        <p>
+          <strong>or instantly send other questions or questions to our admissions team</strong><br>
+          → They'll respond to all questions within 2 hours (Monday-Friday)
+        </p>
+        <a href="https://wa.me/2347046408968?text=Hi%20I%20have%20a%20question%20about%20admissions" target="_blank" class="chat-btn">
+          <i class="fab fa-whatsapp"></i>
+          Chat with us on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ready to Experience Section -->
+  <section class="ready-experience">
+    <div class="container">
+      <div class="experience-content" data-aos="fade-up">
+        <h2>Ready to Experience Excellence?</h2>
+        <p><strong>→ Ready to experience academic excellence and watch your child flourish</strong></p>
+        <div class="experience-buttons">
+          <a href="https://wa.me/2347046408968?text=Hi%20I%20want%20to%20schedule%20a%20visit" target="_blank" class="experience-btn primary">
+            <i class="fab fa-whatsapp"></i>
+            WhatsApp Us
+          </a>
+          <a href="tel:+2347046408968" class="experience-btn secondary">
+            <i class="fas fa-phone"></i>
+            Call Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <div class="floating-whatsapp">
+    <a href="https://wa.me/2347046408968?text=Hi%20I%20want%20to%20know%20more%20about%20The%20Taurean%20School" target="_blank">
+      <i class="fab fa-whatsapp"></i>
     </a>
-    <a href="https://www.tiktok.com/@the_taurean_school_?_t=ZM-8y3HBonJlFm&_r=1"><img class="icons" src="/tiktok.png" alt=""></a>    
-  </section>
+  </div>
 
-  <!-------- Javascript for toggle menu-------->
-  <script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu(){
-      navLinks.style.right = "0";
-    }
-
-    function hideMenu(){
-      navLinks.style.right = "-200px";
-    }
-  </script>
-  
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
 
